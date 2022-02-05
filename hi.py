@@ -13,6 +13,6 @@ print(sys.executable)
 r = requests.get('https://cnn.com')
 print(r.status_code)
 
-# name = input("Your name? ")
-name = "Jerry"
+name = input("Your name? ")
+# name = "Jerry"
 print("hi, ", name)
